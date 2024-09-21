@@ -7,6 +7,10 @@ android {
     namespace = "com.ismailmesutmujde.kotlinstoragesharedpreferencesentrycounterapp"
     compileSdk = 34
 
+    buildFeatures {
+        viewBinding = true
+    }
+    
     defaultConfig {
         applicationId = "com.ismailmesutmujde.kotlinstoragesharedpreferencesentrycounterapp"
         minSdk = 24
